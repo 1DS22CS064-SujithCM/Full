@@ -1,0 +1,34 @@
+11-1 : study
+1-2 : apply job
+3-6 : lunch + sleep
+6-7 : walking
+7-9 : study
+9-11 : apply job + dinner
+11-2 : study
+
+
+React JS : Done
+Express : Done
+
+
+DSA:
+Basic
+Array
+String
+Two Pointer
+Stack
+Queue
+Linked List
+Bit manipulation
+DP
+Graph
+Tree
+
+
+Array: 
+Subarray with positive:  two pointer
+Subarray with both : prefix with (hashmap,hashset)
+
+1. zero sum subarray (gfg):
+suppose an array of 10 size if size of 0-3 is S then if 0-7 is S then it mean that 4-7 is Zero
+

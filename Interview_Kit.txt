@@ -1,0 +1,145 @@
+Introduce urs:
+Good morning, sir. I am Sujith, currently pursuing a degree in Computer Science and Engineering at Dayananda Sagar College of Engineering. I am skilled in Java programming and have a solid understanding of front-end technologies. I have developed projects such as a medicine recommendation system using Python and Flask, and a hostel management system using Java and SQL. I am also familiar with development tools like Git and Docker.
+In addition to my technical skills, I am an active member of my college's NSS (National Service Scheme) unit, where I have participated in various community service initiatives aimed at social welfare and awareness. I am a quick learner with a strong passion for solving real-world problems through innovative use of technology.
+
+updated one :
+Good morning, sir. I’m Sujith. I recently graduated in Computer Science and Engineering from Dayananda Sagar College of Engineering.
+I have good knowledge of Java programming and the MERN stack, including React.js, Node.js, Express.js, and MongoDB. I have built a social networking application using the MERN stack and a restaurant pipeline system, where I used Docker, Jenkins, and Kubernetes to deploy the web application. Coming to my experience, I worked as a Technical Intern at Rakuten for six months. During my internship, I worked in two different domains. For the first three months, I worked as a tester, where I gained hands-on experience in writing automation scripts using Python Playwright and Java Selenium. For the next three months, I was part of the DevOps team, where I contributed to developing an AI-powered SRE agent that helps automate the investigation of production alerts arising in the GCP cloud. In addition to my technical skills, I was an active member of my college’s NSS unit, where I participated in community activities such as organizing blood donation camps and social awareness programs.
+
+
+Experience:
+
+SRE AGENT:
+The title of the project is **AI-Powered SRE Multi-Agent System**, an AI-based platform developed to automate the investigation of production alerts in GCP environments. The system uses **Python, FastAPI, PostgreSQL, React.js, and multiple AI agents**, with MCP used to interact with monitoring and infrastructure tools.
+The main objective of the system is to help **Site Reliability Engineers** investigate production issues faster by automatically analyzing alerts, collecting relevant evidence, identifying possible root causes, and generating a structured Root Cause Analysis (RCA).
+The flow of the project starts when a **production alert is received through a GCP alert webhook**. The FastAPI backend starts an investigation session and passes the alert to the **Coordinator Agent**, which manages the complete investigation process. The **Discovery Agent** then understands the alert, checks previous incidents and knowledge-base information, and performs the initial triage.
+After that, the system creates **testable hypotheses** about what could have caused the issue. Three investigation lanes run in parallel, where each lane follows **Planner, Executor, Assessor, and Critic** stages. The Executor uses **MCP tools** to collect real-time information from Kubernetes, GCP Logs, Metrics, and other infrastructure systems, while the Assessor evaluates the quality of the collected evidence.
+To improve accuracy, the system uses a **Shared Evidence Pool** so that different investigation lanes can share useful findings. A convergence mechanism checks whether enough reliable evidence has been collected and stops unnecessary investigation once the root cause becomes clear.
+Finally, the **RCA Agent** uses the validated evidence to provide the **root cause, contributing factors, dependencies involved, supporting evidence, tools used during the investigation, and recommended remediation steps** to resolve and prevent the issue.
+
+Project-1
+good morning sir , title of my project is hotel management system and it is developed using java swing for front end and MySQL for the backend . the main objective of the project is to automate the day to day hotel operations and decrease the human error , usage of paper and increase the customer satisfaction the project has two modules admin and recepiosts
+admin module have the following functions adding new employee to the db like server,manager, etc and next function is add rooms while creating the project we have kept the room of two type single bed and double bed and cost varies accordingly
+coming to the next module recepitonsts module it has the following functionality adding new customer by taking there aadhar card details, name,age,check in time and advance amount and then followed by allowing the available room to them
+it also have ther functionality like displaying room status,employee stauts in real time
+can also connect to the cab driver for the pickup and drop of the customer for there desire location
+it also thave the billing system which automatically calculate the pending amount that the customer need to pay and overall check in and check out is quick a compare to the manually do these things using paper
+here we have used jdbc driver for connecting java app and sql database
+
+Project-2
+Our project, titled Medicine Recommendation System, is a web-based AI-powered healthcare application developed using HTML and CSS for the frontend and Python Flask for the backend. The main goal of the system is to provide intelligent healthcare support by recommending appropriate medicines, diet plans, workout routines, and precautions based on the user's symptoms. When a user enters their symptoms on the web interface, the input is sent to the Flask backend, where a pre-trained machine learning model predicts the most likely disease. We trained this model using a publicly available dataset from Kaggle, and selected the Random Forest Classifier for its high accuracy, ability to handle multiclass classification, and robustness against overfitting. Based on the prediction, the system generates relevant medical recommendations. Additionally, we integrated an AI-powered support feature that serves as a second opinion, allowing users to ask questions and receive simple, detailed explanations about their predicted condition, symptoms, or diseases. This enhances the system's usability and helps users better understand their health insights
+
+Project-3:(AlgoVision)
+Good morning sir, the title of my project is AlgoVision its a Algorithm Visualiation desktop application, and it is developed using Java Swing for the frontend interface, with sorting algorithm logic implemented in the backend. The main objective of this project is to help students and learners understand sorting algorithms in an interactive and engaging way by showing their execution step-by-step through visual animations. In this project, the user can choose from algorithms like Insertion Sort, Quick Sort, Merge Sort, and Bubble Sort, and can either generate random arrays by specifying the size or enter custom values manually. Once the input is set, the user can start, stop, or reset the visualization at any point, allowing them to carefully observe the sorting
+
+process. The changes in the array are displayed as animated bar graphs, making it easy to follow the algorithm's logic, and the program also displays the time complexity for the selected algorithm, enabling performance comparison. This project makes complex concepts easier to understand, enhances learning, and offers a practical way to compare algorithms. It serves as an effective educational tool that bridges the gap between theory and practice.
+
+Project - 4
+Thread-Mastery:
+Good morning sir, the title of my project is ThreadMastery and it is developed using Java with the main objective of demonstrating different threading and concurrency models in a client-server environment and comparing their efficiency. The project has three modules: a single-threaded server where only one client is handled at a time, a multi-threaded server where each client gets its own thread allowing concurrent handling but with the drawback of high overhead under heavy load, and a thread pool server where the ExecutorService manages a fixed pool of worker threads to efficiently handle requests without creating excessive threads. In all three modules, the client sends a number and the server returns its factorial, using ServerSocket and Socket classes for networking and BufferedReader with PrintWriter streams for communication. Through this implementation, I was able to compare performance, scalability, and resource management across the models, and I observed that thread pooling is most efficient for real-world applications as it balances stability and system resources. Overall, this project gave me strong hands-on knowledge of Java networking, concurrency, and backend optimization.
+
+Project - 5:
+Restaurant Pipeline System:
+The title of my project is Restaurant Pipeline System. It is developed using HTML, CSS, and JavaScript for the front end, while Docker, Jenkins, and Kubernetes are used for containerization, automation, and deployment.
+The main objective of the project is to automate the entire development and deployment process of a restaurant web application, ensuring faster delivery, reduced manual intervention, and high reliability through Continuous Integration and Continuous Deployment (CI/CD).
+
+The project mainly consists of three modules:
+-- Frontend Module:
+This part contains the restaurant’s web interface built using HTML, CSS, and JavaScript. It displays menu items, images, and details in an attractive layout that represents a restaurant’s digital presence.
+
+-- CI/CD Pipeline Module:
+The pipeline is built using Jenkins integrated with Docker. Whenever a developer pushes code to the repository, Jenkins automatically triggers the build process, creates a Docker image using the Dockerfile, and performs basic tests. After successful testing, the image is pushed to a container registry for deployment.
+
+-- Deployment Module:
+This module uses Kubernetes for managing and scaling the restaurant application. The Kubernetes Deployment and Service YAML files are used to deploy the application containers, expose them to users, and ensure high availability.
+
+Overall, this project demonstrates a complete DevOps workflow — from code development to automated build, testing, and deployment — providing a reliable, efficient, and scalable restaurant management pipeline.
+
+Project - 6:
+Serverless Web Application for Student Data Management:
+The title of my project is “Serverless Web Application for Student Data Management.”
+It is developed using HTML and JavaScript for the frontend and AWS Lambda with DynamoDB for the backend. The main goal is to create a fully serverless, scalable, and cost-efficient system to store and retrieve student details.
+
+The project mainly uses DynamoDB, Lambda functions, and API Gateway.
+In DynamoDB, we created a table StudentData with the student name as the partition key.
+
+For backend logic, we built two Lambda functions:
+getStudents – fetches all student records
+insertStudentData – inserts new student data
+Both are written in Python 3.12 and connected to API Gateway using GET and POST methods. The generated API endpoint is added in the JavaScript file, and CORS is enabled for browser access.
+The frontend (index.html and scripts.js) is hosted in an S3 bucket with static hosting enabled. To improve security and speed, CloudFront is placed in front of the S3 bucket for HTTPS and global caching.
+Overall, the project shows how to build a complete serverless application without managing servers, ensuring low cost, high scalability, and easy maintenance.
+
+Project - 7 (MERN)
+Our project, titled Social Networking Application, is a full-stack web-based platform developed using React.js for the frontend and Node.js with Express.js for the backend, with MongoDB as the database.
+The main goal of the system is to enable users to connect digitally by sharing posts, images, and interacting through likes, comments, and real-time chat.
+
+The flow of the project starts from a user firstly needing to create an account with basic details like name, age, and a small bio, and also with a profile picture which is optional.
+Once the account is created, a JWT token is generated to ensure proper authentication and secure access to the application.
+
+After successful authentication, the user can create posts, upload images, like and comment on posts, and follow or unfollow other users.
+All these actions are processed through RESTful APIs in the backend and stored efficiently in MongoDB using Mongoose.
+
+To enhance user interaction, the application includes real-time one-to-one chatting using Socket.IO, allowing instant message delivery without page refresh.
+This real-time communication improves engagement and provides a smooth social networking experience.
+
+Overall, the project follows a secure, scalable architecture with optimized database queries and real-time features, delivering a modern and user-friendly social networking platform.
+
+5years:
+In 5 years, I see myself as a skilled software developer taking on more responsibilities, leading small teams, and contributing to important projects while continuing to grow technically and professionally.
+
+More Java:
+"Sir, I have basic knowledge of Python, but I'm more skilled in Java. If possible, could you please ask questions in Java?"
+
+weakness:
+My weakness is public speaking.
+Initially, I was not confident while speaking in group discussions and felt nervous during presentations.
+But over time, I started participating in seminars and slowly built up my confidence.
+Becoming the class representative in my 5th semester helped me a lot - I had to communicate regularly with both faculty and students.
+That experience really improved my communication skills and boosted my confidence in public speaking.
+
+Leadship skills:
+In my 5th semester, I was the class representative.
+At that time, there were some problems with the lab exam schedule and assignments. Many students were confused.
+So, I talked to the teachers, got the correct information, and shared it with everyone clearly. I also collected students' feedback and shared it with the department politely.
+This helped solve the issue, and students were less stressed. That experience taught me how to manage a team, take initiative, and communicate well - like a leader.
+
+Carrer goals:
+In the short term, I want to join a company where I can learn from real projects, improve my technical skills, and grow professionally.
+In the long term, I want to take more responsibility, maybe lead a team, and become an expert in my domain - whether that's software development, web development.
+
+Handle Stress:
+I try to stay calm and break the task into small steps.
+If I have multiple deadlines, I make a list, prioritize the work, and focus on one thing at a time.
+I also try not to panic - I've handled project deadlines before by managing time and working consistently.
+
+Hobbies:
+In my free time, I enjoy watching movies - it helps me relax and unwind while exploring different stories and perspectives.
+I also like playing badminton, which keeps me physically active and mentally refreshed.
+
+
+Questions:
+Could you tell me more about the key responsibilities and how a typical day is structured in this role?
+
+Do u fit for this job?
+
+Yes, I do. I understand that learning is a continuous process, and I'm confident that my current skills, adaptability, and problem-solving mindset make me well- suited for this role. I'm ready to take on challenges and deliver meaningful results.
+
+do u change it more salary?
+I understand that salary is important, but my main focus is finding the right role where I can grow, contribute, and be part of a positive work environment. If I'm given opportunities to develop my skills and advance my career here, I'd prefer to stay long-term rather than switch for a short-term salary increase.
+
+How do u priorities work?
+I prioritize tasks by first noting all deadlines, then focusing on the most urgent and important ones. I break them into smaller steps and work systematically, so I can meet deadlines without compromising quality.
+
+Hackathon Description:
+In our college hackathon, the problem was that many patients forget their follow-up appointments, which leads to delays in treatment and extra work for
+hospital staff. Our solution was designed for Jayadev Hospital to make follow-up management easy. When a patient visits for the first time, the receptionist records their details, a short description of their condition, and the next visit date in the system. One day before the follow-up, the system automatically sends an SMS reminder to the patient. The message also contains a link where they can check the exact time of their appointment. This solution not only reduces missed appointments but also saves staff time by automating reminders, making patient care more efficient and reliable.
+
+how do u send message:
+To send SMS reminders, we used an SMS gateway API service like Textlocal The hospital system triggers the API one day before the scheduled appointment. The API takes the patient's phone number and the reminder message as input and delivers the SMS instantly. This approach is reliable, works with any mobile network.
+
+SQL:
+char[5] if "sql" is stored then it paddes other two character with spaces
+varchar[5] if "sql" is stored then only 3 places are allocated  
+-- both stores ascii value
+nvarchar[5] it stores Unicode value similar to varchar

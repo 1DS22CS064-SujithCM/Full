@@ -1,0 +1,25 @@
+// created db data for reference
+{
+    "username":"user1",
+    "email":"user1@gmail.com",
+    "password":"user1",
+    "role":"user"
+},
+{
+    "username":"user2",
+    "email":"user2@gmail.com",
+    "password":"user2",
+    "role":"user"
+},
+{
+    "username":"user3",
+    "email":"user3@gmail.com",
+    "password":"user3",
+    "role":"artist"
+},
+{
+    "username":"user4",
+    "email":"user4@gmail.com",
+    "password":"user4",
+    "role":"artist"
+}
