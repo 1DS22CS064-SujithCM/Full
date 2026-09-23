@@ -1,0 +1,80 @@
+JavaScript And Basics Normal Questions
+
+----------------------------------------------------------------------------
+1. What is hoisting in javascript
+2. local and session Storage
+3. how can page loading time be reduced
+4. difference between SOAP vs REST
+5. how is graphql different from REST
+6. Components of CSS box model
+7. Difference between class and ID selector
+8. various Data types in javascript
+9. what is DOM
+10. this Keyword in JavaScript
+11. Advantages of Using CDN
+12. event bubbling and capturing
+13. what is 'use strict' in javascript
+14. difference between cookie and local Storage
+15. how can you prevent a bot from scraping your publicily accessible API
+----------------------------------------------------------------------------
+
+ReactJS
+
+----------------------------------------------------------------------------
+1. Explain virtual DOM and how it works
+2. What is State Management in React
+3. Common Types of Hooks
+4. Explain Component LifeCycle in React
+5. what is ContextAPI and how it is different from props
+6. How can u optimize the performance within the react APP
+7. what is higher order component
+8. how do u handle forms in the react
+9. what is server side rendering and how it is benefical
+10. what is Redux in React Explain it
+
+Read answers folder and the react JS notes pdf for the complete information
+----------------------------------------------------------------------------
+
+Node JS
+
+----------------------------------------------------------------------------
+1. Explain asynchronous and non blocking program
+2. What is event loop
+3. Explain Middleware
+4. How Child Thread is handled
+5. What are the streams in NodeJS
+6. what is callback hell and how can it be solved
+7. how do promises help in callback hell
+8. what does package.json content
+9. difference between process.nextTick(), setImmediate()
+10. how can you handle errors in Node JS
+----------------------------------------------------------------------------
+
+Express JS
+
+----------------------------------------------------------------------------
+1. how do you handle Routing in Express JS
+2. Difference Between req.params,req.query,req.body
+3. What are middleware in the express
+4. How Error are handled in the Express
+5. What is role of body-parser and how it is helpful
+6. Implement authorization and authentication
+7. What is CORS and How do u handle it in Express Application (Cross Origin Request Sharing)
+8. How do you manage session in Express
+9. How do you create RESTful API using Express
+10. How do you connect MongoDB dataBase
+----------------------------------------------------------------------------
+
+MongoDB
+
+----------------------------------------------------------------------------
+1. Difference Between MonogDB and relational dataBase
+2. Difference Between Document and the collection
+3. What is Replica Set, How does it work
+4. How Does MongoDB handle data consistency
+5. What are indexes in MongoDB, and why are they important
+6. Explain aggregation in MongoDB
+7. How does Sharding work in MongoDB
+8. What are the different types of queries you can perform in MongoDB
+9. What is the role of ObjectID and its structure
+10. How do you handle Transactions in MongoDB
